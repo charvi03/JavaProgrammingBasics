@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class quadratic_equation {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input a: ");
+        double a = input.nextDouble();
+        System.out.print("Input b: ");
+        double b = input.nextDouble();
+        System.out.print("Input c: ");
+        double c = input.nextDouble();
+
+        double result = b * b - 4.0 * a * c;
+
+        if (result > 0.0) {
+            double r1 = (-b + Math.sqrt(result)) / (2.0 * a);
+            double r2 = (-b - Math.sqrt(result)) / (2.0 * a);
+            System.out.println("The roots are " + r1 + " and " + r2);
+        } else if (result == 0.0) {
+            double r1 = -b / (2.0 * a);
+            System.out.println("The root is " + r1);
+        } else {
+            double real = -b / (2 * a);
+            double imaginary = Math.sqrt(-result) / (2 * a);
+            System.out.print("First root = " + real + " + ");
+            System.out.println(imaginary);
+            System.out.print("Second root = " + real + " - ");
+            System.out.println(imaginary);
+        }
+    }
+}
+
+
+
+
+
