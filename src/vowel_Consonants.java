@@ -6,7 +6,8 @@ public class vowel_Consonants {
         System.out.println("Enter the character");
         char y = sc.next().charAt(0);
         if (y == 'a' || y == 'e' || y == 'i' || y == 'o'
-                || y == 'u')
+                || y == 'u'|| y == 'A' || y == 'E' || y == 'I' || y == '0'
+                || y == 'U')
             System.out.println("It is a Vowel.");
         else
             System.out.println("It is a Consonant.");
