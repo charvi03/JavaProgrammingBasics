@@ -4,13 +4,13 @@ public class constructor_example3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the name of bird");
-        String n = sc.nextLine();
+        String name = sc.nextLine();
         System.out.println("Enter the age");
-        int a = sc.nextInt();
+        int age = sc.nextInt();
         sc.nextLine();
         System.out.println("Enter the color");
-        String c = sc.nextLine();
-        Bird b = new Bird(c, a, n);
+        String color = sc.nextLine();
+        Bird b = new Bird(color, age, name);
         System.out.println("The bird name is " + b.BirdName);
         System.out.println("The age is " + b.age);
         System.out.println("The color is " + b.color);
