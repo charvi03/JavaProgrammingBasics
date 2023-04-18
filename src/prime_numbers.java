@@ -15,7 +15,7 @@ public class prime_numbers {
                     isPrime = false;
                 }
             }
-            if (isPrime == true) {
+            if (isPrime) {
                 System.out.println("number is prime");
             } else {
                 System.out.println("number is not prime");
