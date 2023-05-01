@@ -1,20 +1,20 @@
 public class constructor_example {
     public static void main(String[] args) {
-        Dog tuffy = new Dog("Tuffy", "papillon", 5, "white");
+        Dog1 tuffy = new Dog1("Tuffy", "papillon", 5, "white");
         System.out.println(tuffy.toString());
-        Dog misti = new Dog("Mishthi", "labra", 7, "Brown");
+        Dog1 misti = new Dog1("Mishthi", "labra", 7, "Brown");
         System.out.println(misti.toString());
 
     }
 }
 
-class Dog {
+class Dog1 {
     String name;
     String bread;
     int age;
     String color;
 
-    public Dog(String name, String bread, int age, String color) {
+    public Dog1(String name, String bread, int age, String color) {
         this.name = name;
         this.bread = bread;
         this.age = age;
