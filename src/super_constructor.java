@@ -13,6 +13,7 @@ class Person {
 
 class Students extends Person {
     Students() {
+        super();
         System.out.println("Student class Constructor");
     }
 }
