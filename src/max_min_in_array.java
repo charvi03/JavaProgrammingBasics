@@ -30,6 +30,9 @@ public class max_min_in_array {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
+        max_min_in_array m = new max_min_in_array();
+        System.out.println("Max value in array is : " + m.max(arr));
+        System.out.println("Max value in array is : " + m.min(arr));
 
     }
 }
