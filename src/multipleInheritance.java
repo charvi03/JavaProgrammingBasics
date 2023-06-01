@@ -8,15 +8,15 @@ public class multipleInheritance {
 }
 
 interface one {
-    public void print_geek();
+    void print_geek();
 }
 
 interface two {
-    public void print_for();
+    void print_for();
 }
 
 interface three extends one, two {
-    public void print_geek();
+    void print_geek();
 }
 
 class Child implements three {

@@ -1,6 +1,6 @@
 public class ArrayOfObjects {
     public static void main(String[] args) {
-        Products obj[] = new Products[5];
+        Products[] obj = new Products[5];
         obj[0] = new Products(2011, "dell laptop");
         obj[1] = new Products(1555, "Hp laptop");
         obj[2] = new Products(3333, "kingston USB");

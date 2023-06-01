@@ -1,9 +1,9 @@
 public class constructor_example {
     public static void main(String[] args) {
         Dog1 tuffy = new Dog1("Tuffy", "papillon", 5, "white");
-        System.out.println(tuffy.toString());
+        System.out.println(tuffy);
         Dog1 misti = new Dog1("Mishthi", "labra", 7, "Brown");
-        System.out.println(misti.toString());
+        System.out.println(misti);
 
     }
 }

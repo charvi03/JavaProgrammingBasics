@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class max_min_in_array {
-    static int max(int arr[]) {
+    static int max(int[] arr) {
         int max = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
@@ -11,7 +11,7 @@ public class max_min_in_array {
         return max;
     }
 
-    static int min(int arr[]) {
+    static int min(int[] arr) {
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
@@ -31,8 +31,8 @@ public class max_min_in_array {
             arr[i] = sc.nextInt();
         }
         max_min_in_array m = new max_min_in_array();
-        System.out.println("Max value in array is : " + m.max(arr));
-        System.out.println("Max value in array is : " + m.min(arr));
+        System.out.println("Max value in array is : " + max(arr));
+        System.out.println("Max value in array is : " + min(arr));
 
     }
 }

@@ -13,6 +13,7 @@ public class prime_numbers {
             for (int i = 2; i <= Math.sqrt(n); i++) { //n-1
                 if (n % i == 0) {
                     isPrime = false;
+                    break;
                 }
             }
             if (isPrime) {
