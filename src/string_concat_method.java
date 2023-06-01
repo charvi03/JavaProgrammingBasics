@@ -7,3 +7,4 @@ public class string_concat_method {
         System.out.println(s1);
     }
 }
+

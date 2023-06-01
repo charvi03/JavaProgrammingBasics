@@ -15,3 +15,4 @@ public class contains_element_array {
         System.out.println(contains(my_array1, 20));
     }
 }
+
