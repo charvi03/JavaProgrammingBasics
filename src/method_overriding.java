@@ -1,33 +1,26 @@
 public class method_overriding {
     public static void main(String[] args) {
-        Parent a;
-        a = new subclass1();
-        a.Print();
-
-        a = new subclass2();
-        a.Print();
+        Dogg d1 = new Dogg();
+        Animl a1 = new Animl();
+        d1.eat();
+        a1.eat();
+        Animl animl = new Dogg();
+        animl.eat();
     }
 }
+    class Animl {
+        void eat()
+        {
+        System.out.println("eat() method of base class");
+        System.out.println("eating.");
+        }
+        }
 
-class Parent {
-
-    void Print() {
-
-        System.out.println("parent class");
-    }
-}
-
-class subclass1 extends Parent {
-
-    void Print() {
-        System.out.println("subclass1");
-    }
-}
-
-class subclass2 extends Parent {
-
-    void Print() {
-
-        System.out.println("subclass2");
+// Inherited Class
+class Dogg extends Animl {
+    void eat()
+    {
+        System.out.println("eat() method of derived class");
+        System.out.println("Dog is eating.");
     }
 }
