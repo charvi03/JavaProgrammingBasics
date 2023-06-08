@@ -8,18 +8,14 @@ public class method_overriding {
         animl.eat();
     }
 }
-    class Animl {
-        void eat()
-        {
+class Animl {
+    void eat() {
         System.out.println("eat() method of base class");
         System.out.println("eating.");
-        }
-        }
-
-// Inherited Class
+    }
+}
 class Dogg extends Animl {
-    void eat()
-    {
+    void eat() {
         System.out.println("eat() method of derived class");
         System.out.println("Dog is eating.");
     }
