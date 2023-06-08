@@ -3,8 +3,10 @@ public class exceptionhandling {
         try {
             int frac = 100 / 0;
         } catch (ArithmeticException err) {
-            System.out.println("In the catch Block due to exception " + err);
+            System.out.println("In the catch Block due to exception \n "
+                    + err);
         }
         System.out.println("rest of the code...");
     }
 }
+
