@@ -7,10 +7,6 @@ public class count_words_method {
     }
 
     public static int countWordsUsingSplit(String input) {
-        if (input == null || input.isEmpty()) {
-            return 0;
-        }
-
         StringTokenizer tokens = new StringTokenizer(input);
         return tokens.countTokens();
     }
